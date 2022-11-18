@@ -1,0 +1,100 @@
+.header1{
+  
+   
+    font-weight:700;
+    font-size: 25px;
+    margin-bottom: 10px;
+
+}
+.mail
+{
+    font-weight: bold;
+    margin-top: 18px;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+.mail-input{
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 250px;
+    border:solid;
+    border-color:gray;
+    border-radius: 10px;
+    margin-bottom: 5px;
+   
+    
+}
+.pass
+{
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+.header2
+{
+    font-size: 15px;
+}
+input[type="submit"]{
+    transform: translate(0%,65%);
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 40px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;}
+
+input[type="submit"]:hover{
+    cursor: pointer;
+    background-color:darkgray;
+
+}
+input[type="submit"]:hover{
+    cursor: pointer;
+    color: white;
+    background-color:gray;
+}
+input[type="submit"]:active{
+    color: blueviolet;
+    background-color:white;
+    
+}
+#error{
+    transform: translate(20%,-180%);
+}
+.first{
+    display: flex;
+    flex-direction:row;
+    padding: 20px;
+    box-shadow: -2px 2px 5px black;
+}
+body{
+    min-height: 100vh;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    margin-bottom: 0px;
+}
+.sign-header
+{
+    color: rgb(138, 43, 226) ;
+    font-size: 13px;
+}
+.forget-pass
+{
+    color: blueviolet;
+    font-size: 13px;
+    
+}
+
+
+
+

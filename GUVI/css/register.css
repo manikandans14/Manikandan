@@ -1,0 +1,86 @@
+.header{
+ font-weight: bolder;
+ display: block;
+}
+.contain{
+    font-family: sans-serif;
+
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+
+}
+body{
+    min-height: 100vh;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+input{
+    width: 200px;
+    margin-top: -20px;
+    padding-left: 10px;
+    padding-top:  10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border-color: lightgray;
+
+}
+.sub1{
+    margin-right: 10px;
+}
+.sub2{
+    margin-left: 10px;
+    margin-top: 6px;
+}
+input[type="submit"]{
+    transform: translate(0%,100%);
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 40px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+}
+#error{
+    color: red;
+    transform: translate(500%,550%);
+}
+input[type="submit"]:hover{
+    cursor: pointer;
+    background:gray;
+
+
+}
+
+
+input[type="submit"]:active{
+    color: blueviolet;
+    background-color:white;
+}
+.form-select{
+    width: 215px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border-color: lightgray;
+
+}
+.already{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+    
